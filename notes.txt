@@ -1,0 +1,41 @@
+Super User :
+    username = admin
+    email =admin@littlelemon.com
+    password = admin123#
+
+
+Users/Costomers :
+{
+	"email": "jimmyD@gmail.com",
+	"username": "jimmyD"
+    "password": "j123456#"
+},
+{
+    "email": "riyaJ@gmail.com",
+    "username": "riyaJ"
+    "password": "j123456#"
+    c7c4dd8166c1be05c26b9f8a0aba540157618f25
+}
+Manager
+{
+	"email": "abdulJ@littlelemon.com",
+	"username": "abdulJ",
+    "password": "j123456#"
+},
+{
+    "email": "aprilJ@littlelemon.com",
+    "username": "aprilJ"
+    "password": "j123456#"
+    cd75a0324f70fa3c913c73ead02219cebbd0d659
+}
+Delivery crew
+{
+	"email": "johnyD@littlelemon.com",
+	"username": "johnyD",
+    "password": "j123456#"
+}
+{
+    "email": "tonyJ@littlelemon.com",
+    "username": "tonyJ"
+    "password": "j123456#"  
+}
