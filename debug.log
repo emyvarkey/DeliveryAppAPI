@@ -1,0 +1,129 @@
+DEBUG 2024-07-28 22:15:01,471 views Fetching the cart for user: jimmyD
+DEBUG 2024-07-28 22:16:27,440 views Creating order for user: jimmyD
+DEBUG 2024-07-28 22:16:27,443 views Order created with ID: 25
+DEBUG 2024-07-28 22:16:27,443 views Creating order item for cart : 12
+
+DEBUG 2024-07-28 22:16:27,443 views Cart Details are 
+order = Order ID 25 for jimmyD created on 2024/07/28
+menuitem = Natukodi Fry Biryani (chicken) 
+quantity = 2 
+unit_price = 14.99 
+price =29.98
+ERROR 2024-07-28 22:16:27,444 views Failed to create order item for cart jimmyD Cart_ID: 12: because of FOREIGN KEY constraint failed
+ERROR 2024-07-28 22:16:27,444 views Failed to create order items: [ErrorDetail(string='Failed to create order item for menuitem ID 37: FOREIGN KEY constraint failed', code='invalid')]
+DEBUG 2024-07-28 22:20:56,698 views Creating order for user: jimmyD
+DEBUG 2024-07-28 22:20:56,699 views Order created with ID: 26
+DEBUG 2024-07-28 22:20:56,699 views Creating order item for cart: 12
+DEBUG 2024-07-28 22:20:56,700 views Cart Details are order = Order ID 26 for jimmyD created on 2024/07/28, menuitem = Natukodi Fry Biryani (chicken), quantity = 2, unit_price = 14.99, price = 29.98
+DEBUG 2024-07-28 22:20:56,700 views Created order item for menuitem ID: 37
+DEBUG 2024-07-28 22:20:56,701 views Creating order item for cart: 13
+DEBUG 2024-07-28 22:20:56,701 views Cart Details are order = Order ID 26 for jimmyD created on 2024/07/28, menuitem = Daal Makhani, quantity = 2, unit_price = 14.99, price = 29.98
+DEBUG 2024-07-28 22:20:56,701 views Created order item for menuitem ID: 12
+DEBUG 2024-07-28 22:20:56,701 views Creating order item for cart: 14
+DEBUG 2024-07-28 22:20:56,702 views Cart Details are order = Order ID 26 for jimmyD created on 2024/07/28, menuitem = Kulfi Mango, quantity = 5, unit_price = 5.99, price = 29.95
+DEBUG 2024-07-28 22:20:56,702 views Created order item for menuitem ID: 29
+DEBUG 2024-07-28 22:20:56,702 views Order items created for order ID: 26
+DEBUG 2024-07-28 22:20:56,702 views Cart items deleted for user: jimmyD
+DEBUG 2024-07-29 05:42:42,776 views Fetching the cart for user: jimmyD
+DEBUG 2024-07-29 05:42:49,684 views Creating order for user: jimmyD
+DEBUG 2024-07-29 05:42:49,685 views Order created with ID: 26
+DEBUG 2024-07-29 05:42:49,685 views Creating order item for cart: 12
+DEBUG 2024-07-29 05:42:49,685 views Cart Details order: Order ID 26 for jimmyD created on 2024/07/29 are/n menuitem = Natukodi Fry Biryani (chicken), quantity = 2, unit_price = 14.99, price = 29.98
+DEBUG 2024-07-29 05:42:49,686 views Created order item for menuitem ID: 37
+DEBUG 2024-07-29 05:42:49,686 views Creating order item for cart: 13
+DEBUG 2024-07-29 05:42:49,687 views Cart Details order: Order ID 26 for jimmyD created on 2024/07/29 are/n menuitem = Daal Makhani, quantity = 2, unit_price = 14.99, price = 29.98
+DEBUG 2024-07-29 05:42:49,687 views Created order item for menuitem ID: 12
+DEBUG 2024-07-29 05:42:49,687 views Creating order item for cart: 14
+DEBUG 2024-07-29 05:42:49,687 views Cart Details order: Order ID 26 for jimmyD created on 2024/07/29 are/n menuitem = Kulfi Mango, quantity = 5, unit_price = 5.99, price = 29.95
+DEBUG 2024-07-29 05:42:49,688 views Created order item for menuitem ID: 29
+DEBUG 2024-07-29 05:42:49,688 views Order items created for order ID: 26
+DEBUG 2024-07-29 05:43:00,900 views Fetching the cart for user: jimmyD
+DEBUG 2024-07-29 05:49:57,607 views Creating order for user: jimmyD
+DEBUG 2024-07-29 05:49:57,608 views Order created with ID: 26
+DEBUG 2024-07-29 05:49:57,608 views Creating order item for cart: 12
+DEBUG 2024-07-29 05:49:57,608 views Cart Details order: Order ID 26 for jimmyD created on 2024/07/29 are/n menuitem = Natukodi Fry Biryani (chicken), quantity = 2, unit_price = 14.99, price = 29.98
+DEBUG 2024-07-29 05:49:57,610 views Created order item for menuitem ID: 37
+DEBUG 2024-07-29 05:49:57,610 views Creating order item for cart: 13
+DEBUG 2024-07-29 05:49:57,610 views Cart Details order: Order ID 26 for jimmyD created on 2024/07/29 are/n menuitem = Daal Makhani, quantity = 2, unit_price = 14.99, price = 29.98
+DEBUG 2024-07-29 05:49:57,611 views Created order item for menuitem ID: 12
+DEBUG 2024-07-29 05:49:57,611 views Creating order item for cart: 14
+DEBUG 2024-07-29 05:49:57,611 views Cart Details order: Order ID 26 for jimmyD created on 2024/07/29 are/n menuitem = Kulfi Mango, quantity = 5, unit_price = 5.99, price = 29.95
+DEBUG 2024-07-29 05:49:57,612 views Created order item for menuitem ID: 29
+DEBUG 2024-07-29 05:49:57,612 views Order items created for order ID: 26
+ERROR 2024-07-29 05:59:16,715 views User riyaJ does not have permission to update order 26
+DEBUG 2024-07-29 06:02:06,093 views Order 26 delivery crew updated to tonyJ by manager aprilJ
+DEBUG 2024-07-29 06:08:56,416 views Order 26 status updated to True by delivery crew user tonyJ
+ERROR 2024-07-29 06:08:56,416 views Failed to update order 26 status: 'str' object has no attribute 'HTTP_200_OK'
+ERROR 2024-07-29 06:14:28,108 views Failed to update order 26 status: 'Order' object has no attribute 'status_value'
+DEBUG 2024-07-29 06:14:55,768 views Order 26 status updated to True by delivery crew user tonyJ
+DEBUG 2024-07-29 06:25:14,117 views Order 26 status updated to False by delivery crew user aprilJ
+DEBUG 2024-07-29 06:25:29,495 views Order 26 status updated to True by delivery crew user johnyD
+ERROR 2024-07-29 06:27:44,502 views User johnyD does not have permission to update order 26
+DEBUG 2024-07-29 06:30:04,179 views Creating the cart for user: jimmyD
+DEBUG 2024-07-29 06:30:04,179 views Fetching the menuitem with id 24 for user: jimmyD
+DEBUG 2024-07-29 06:30:04,180 views Cart item for user jimmyD and menuitem 24 not found, creating new cart item.
+DEBUG 2024-07-29 06:30:04,182 views New cart item created for user jimmyD and menuitem 24
+DEBUG 2024-07-29 06:32:42,074 views Creating the cart for user: jimmyD
+DEBUG 2024-07-29 06:32:42,078 views Fetching the menuitem with id 24 for user: jimmyD
+DEBUG 2024-07-29 06:32:42,080 views Found existing cart item for user jimmyD and menuitem 24: jimmyD Cart_ID: 15
+DEBUG 2024-07-29 06:32:42,080 views Cart item for user jimmyD and menuitem 24 , quantity is updated to 4.
+DEBUG 2024-07-29 06:32:42,080 views Cart item for user jimmyD and menuitem 24 , price is updated to 95.96.
+DEBUG 2024-07-29 06:32:49,241 views Creating the cart for user: jimmyD
+DEBUG 2024-07-29 06:32:49,242 views Fetching the menuitem with id 25 for user: jimmyD
+DEBUG 2024-07-29 06:32:49,243 views Cart item for user jimmyD and menuitem 25 not found, creating new cart item.
+DEBUG 2024-07-29 06:32:49,245 views New cart item created for user jimmyD and menuitem 25
+DEBUG 2024-07-29 06:34:09,435 views Fetching the cart for user: jimmyD
+DEBUG 2024-07-29 06:37:00,924 views Creating the cart for user: jimmyD
+DEBUG 2024-07-29 06:37:00,925 views Fetching the menuitem with id 25 for user: jimmyD
+DEBUG 2024-07-29 06:37:00,926 views Found existing cart item for user jimmyD and menuitem 25: jimmyD Cart_ID: 16
+DEBUG 2024-07-29 06:37:00,926 views Cart item for user jimmyD and menuitem 25 , quantity is updated to 4.
+DEBUG 2024-07-29 06:37:00,926 views Cart item for user jimmyD and menuitem 25 , price is updated to 23.96.
+DEBUG 2024-07-29 06:37:14,440 views Creating the cart for user: jimmyD
+DEBUG 2024-07-29 06:37:14,441 views Fetching the menuitem with id 6 for user: jimmyD
+DEBUG 2024-07-29 06:37:14,441 views Cart item for user jimmyD and menuitem 6 not found, creating new cart item.
+DEBUG 2024-07-29 06:37:14,443 views New cart item created for user jimmyD and menuitem 6
+DEBUG 2024-07-29 06:48:13,578 views Creating order for user: jimmyD
+DEBUG 2024-07-29 06:48:13,578 views Order created with ID: 27
+DEBUG 2024-07-29 06:48:13,579 views Creating order item for cart: 15
+DEBUG 2024-07-29 06:48:13,579 views Cart Details order: Order ID 27 for jimmyD created on 2024/07/29 are/n menuitem = Tandoori Goat Chops, quantity = 4, unit_price = 23.99, price = 95.96
+DEBUG 2024-07-29 06:48:13,580 views Created order item for menuitem ID: 24
+DEBUG 2024-07-29 06:48:13,580 views Creating order item for cart: 16
+DEBUG 2024-07-29 06:48:13,580 views Cart Details order: Order ID 27 for jimmyD created on 2024/07/29 are/n menuitem = Paneer Kulcha, quantity = 4, unit_price = 5.99, price = 23.96
+DEBUG 2024-07-29 06:48:13,580 views Created order item for menuitem ID: 25
+DEBUG 2024-07-29 06:48:13,581 views Creating order item for cart: 17
+DEBUG 2024-07-29 06:48:13,581 views Cart Details order: Order ID 27 for jimmyD created on 2024/07/29 are/n menuitem = Crispy Corn 65, quantity = 1, unit_price = 10.99, price = 10.99
+DEBUG 2024-07-29 06:48:13,581 views Created order item for menuitem ID: 6
+DEBUG 2024-07-29 06:48:13,581 views Order items created for order ID: 27
+DEBUG 2024-07-29 06:49:26,812 views Creating the cart for user: aprilJ
+DEBUG 2024-07-29 06:49:26,813 views Fetching the menuitem with id 9 for user: aprilJ
+DEBUG 2024-07-29 06:49:26,813 views Cart item for user aprilJ and menuitem 9 not found, creating new cart item.
+DEBUG 2024-07-29 06:49:26,816 views New cart item created for user aprilJ and menuitem 9
+DEBUG 2024-07-29 06:49:46,717 views Fetching the cart for user: aprilJ
+DEBUG 2024-07-29 06:57:35,027 views Creating order for user: aprilJ
+DEBUG 2024-07-29 06:57:35,028 views Order created with ID: 28
+DEBUG 2024-07-29 06:57:35,028 views Creating order item for cart: 18
+DEBUG 2024-07-29 06:57:35,028 views Cart Details order: Order ID 28 for aprilJ created on 2024/07/29 are/n menuitem = Chili Chicken, quantity = 3, unit_price = 14.99, price = 44.97
+DEBUG 2024-07-29 06:57:35,029 views Created order item for menuitem ID: 9
+DEBUG 2024-07-29 06:57:35,029 views Order items created for order ID: 28
+DEBUG 2024-07-29 06:58:34,851 views Creating the cart for user: jimmyD
+DEBUG 2024-07-29 06:58:34,852 views Fetching the menuitem with id 11 for user: jimmyD
+DEBUG 2024-07-29 06:58:34,852 views Cart item for user jimmyD and menuitem 11 not found, creating new cart item.
+DEBUG 2024-07-29 06:58:34,854 views New cart item created for user jimmyD and menuitem 11
+DEBUG 2024-07-29 06:58:46,495 views Creating the cart for user: jimmyD
+DEBUG 2024-07-29 06:58:46,495 views Fetching the menuitem with id 30 for user: jimmyD
+DEBUG 2024-07-29 06:58:46,496 views Cart item for user jimmyD and menuitem 30 not found, creating new cart item.
+DEBUG 2024-07-29 06:58:46,498 views New cart item created for user jimmyD and menuitem 30
+DEBUG 2024-07-29 06:59:03,306 views Creating the cart for user: aprilJ
+DEBUG 2024-07-29 06:59:03,306 views Fetching the menuitem with id 30 for user: aprilJ
+DEBUG 2024-07-29 06:59:03,307 views Cart item for user aprilJ and menuitem 30 not found, creating new cart item.
+DEBUG 2024-07-29 06:59:03,309 views New cart item created for user aprilJ and menuitem 30
+DEBUG 2024-07-29 06:59:24,427 views Creating the cart for user: riyaJ
+DEBUG 2024-07-29 06:59:24,427 views Fetching the menuitem with id 30 for user: riyaJ
+DEBUG 2024-07-29 06:59:24,428 views Cart item for user riyaJ and menuitem 30 not found, creating new cart item.
+DEBUG 2024-07-29 06:59:24,430 views New cart item created for user riyaJ and menuitem 30
+DEBUG 2024-07-29 07:00:14,912 views Creating order for user: riyaJ
+DEBUG 2024-07-29 07:00:14,913 views Order created with ID: 29
+DEBUG 2024-07-29 07:00:14,913 views Creating order item for cart: 22
+DEBUG 2024-07-29 07:00:14,914 views Cart Details order: Order ID 29 for riyaJ created on 2024/07/29 are/n menuitem = Pineapple Souffle, quantity = 1, unit_price = 6.99, price = 6.99
+DEBUG 2024-07-29 07:00:14,914 views Created order item for menuitem ID: 30
+DEBUG 2024-07-29 07:00:14,914 views Order items created for order ID: 29
